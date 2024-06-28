@@ -1,5 +1,17 @@
-# Info
+# How To Install
 
-This is a demo project to create realtime database system in laravel using pusher as web-sockets server and laratime package for youtube.
+#### - composer update
 
-#### Youtube Link: [https://youtu.be/kYuzp5dUKWk](https://youtu.be/kYuzp5dUKWk)
+#### - npm update
+
+#### - npm run dev
+
+#### - php artisan key:generate
+
+#### - create .env
+
+#### - in .env : DB_CONNECTION=sqlite, BROADCAST_DRIVER=pusher
+
+#### - Setting PUSHER_APP_ID, PUSHER_APP_KEY, PUSHER_APP_SECRET, PUSHER_APP_CLUSTER
+
+#### - php artisan serve
